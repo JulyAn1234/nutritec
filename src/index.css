@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainDiv{
+    background-color: #f2d8bd;
+}
+body{
+    background-color: #f2d8bd;
+}

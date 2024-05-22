@@ -1,0 +1,20 @@
+.MessageText{
+    overflow-wrap: break-word;
+    font-size: 16px;
+}
+
+.scrollableContainer{
+    height: 88vh;
+    overflow-y: hidden;  
+    scrollbar-gutter: stable;
+}
+
+.scrollableContainer:hover{
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+.messageContainer{
+    display: flex;
+    align-items: flex-end;
+}
